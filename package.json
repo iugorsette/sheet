@@ -1,0 +1,28 @@
+{
+  "name": "importa-planilha-diaria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/contaja/rpa/rpa-comercial/crm-activehosted.git"
+  },
+  "keywords": [],
+  "author": "iugorsette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/contaja/rpa/rpa-comercial/crm-activehosted/issues"
+  },
+  "homepage": "https://gitlab.com/contaja/rpa/rpa-comercial/crm-activehosted#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^105.0.0",
+    "node-fetch": "^3.3.0"
+  }
+}
